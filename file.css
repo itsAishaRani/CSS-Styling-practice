@@ -1,0 +1,126 @@
+/* Fonts, Color & Background */
+body {
+  /* fonts */
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+
+  /* color & background */
+  color: aliceblue;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT74gCaAYwE7-cmD9mrEKsl-oAM2VLlktTc8oTgJWs7qwxAqB8fwy3PznLJZczWevdqw-Q&usqp=CAU);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0px;
+  padding: 40px;
+  text-transform: capitalize;
+}
+
+/* Styling Headings */
+.h1:hover {
+  color: #d4af37;
+  font-size: 50px;
+  margin-left: 50px;
+  transition: 0.3s;
+}
+.h2:hover {
+  color: #d4af37;
+  font-size: 35px;
+  margin-left: 30px;
+  transition: 0.3;
+}
+.h3:hover {
+  color: #d4af37;
+  font-size: 25px;
+  margin-left: 20px;
+  transition: o.3;
+}
+
+/* paragraph styling */
+p {
+  line-height: 1.8;
+  word-spacing: 6px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+/* Styling Table */
+.table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 30px auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+.table th {
+  background-color: #d4af37;
+  color: aliceblue;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  padding: 12px 15px;
+}
+.table td {
+  background-color: #fff8dc;
+  color: #333;
+  padding: 10px 15px;
+}
+.table th,
+.table td {
+  border: 1px solid #555;
+}
+
+.table tr:hover td {
+  background-color: #f7e8b5;
+  transition: 0.3 ease;
+}
+
+/* Styling Form */
+.form {
+  color: #d4af37;
+  width: 80%;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+teaxtarea {
+  width: 50%;
+  padding: 10px;
+  border: 2px solid #d4af37;
+  border-radius: 5px;
+  background-color: #fff8dc;
+}
+
+/* Styling Button */
+button {
+  color: #d4af37;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+  font-size: medium;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d4af37;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+  font-size: large;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 5px;
+  transition: 0.3s;
+}
